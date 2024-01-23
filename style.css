@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+.conteiner{
+    width: 1360px;
+    margin: 0 auto;
+}
+body{
+    overflow-x: hidden;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding-top: 66px;
+}
+nav h3{
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.navigation ul{
+    display: flex;
+    column-gap: 40px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.account{
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+.Account{
+    font-size: 18px;
+    font-weight: 700;
+}
+.header__main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+    color: #fff;
+}
+.follow{
+    display: flex;
+    column-gap: 25px;
+    writing-mode: vertical-lr; 
+    justify-content: center;  
+}
+.line{
+    width: 72px;
+    height: 2px;
+    background: var(--Accent, #fbd784);
+}
+.line__box{
+    display: flex;
+    column-gap: 32px;
+    color: #fbd784;
+    align-items: center;
+}
+.header__main__center h2{
+    font-size: 88px;
+    font-weight: 600;
+    line-height: 100px;
+    margin-top: 32px;
+}
+.scroll{
+    display: flex;
+    column-gap: 5px;
+}
+.scroll a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+}
+.start{
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 16px;
+}
+.start ul li{
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: end;
+}
+.header__background{
+    position: relative;
+    bottom: 1120px;
+}
+.BG__Hero{
+    position: absolute;
+    top: 0px;
+}
+.MG{
+    position: absolute;
+    top: 464px;
+}
+.VG{
+    position: absolute;
+    top: 1167px;
+}
+.BG{
+    position: absolute;     
+    top: 1665px;
+}
+body{
+    background-color: #0B1D26;
+}
+.main__conteiner{
+    width: 1462px;
+    margin: 0 auto;
+}
+.get__started{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    top: 230px;
+}
+.get__started h1{
+    color: #fff;
+    font-size: 240px;
+    font-weight: 700;
+    line-height: 240px;
+    opacity: 0.1;
+    margin-top: 30px;
+}
+.get__started__box{
+    position: relative;
+    bottom: 350px;
+    left: 150px;
+    width: 632px;
+}
+.get__started__box h3{
+    color: #ffff;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 27px;
+}
+.get__started__box p{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-top: 27px;
+}
+.read__more{
+    display: flex;
+    column-gap: 12px;
+    color: #fbd784;
+    margin-top: 27px;
+}
+.Hiking__Essentials h1{
+    position: relative;
+    top: -650px;
+    left: 650px;
+    color: #fff;
+    font-size: 240px;
+    font-weight: 700;
+    line-height: 240px;
+    opacity: 0.1;
+}
+.Hiking__Essentials__picking{
+    position: relative;
+    top: -800px;
+    left: 800px;
+    width: 600px;
+}
+.Hiking__Essentials__picking h2{
+    color: #fff;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 27px;
+}
+.Hiking__Essentials__picking p{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-top: 27px;
+}
+.Hiking__Essentials{
+    position: relative;
+    bottom: -750px;
+}
+.hero__2{
+    position: relative;
+    margin-top: -750px;
+}
+.mntn__block{
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+}
+.mntn h3{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.32px;
+    margin-bottom: 24px;
+}
+.mntn p{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-bottom: 130px;
+}
+.Copyright{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    opacity: 0.5;
+}
+.mntn__box{
+    display: flex;
+    column-gap: 212px;
+}
+span{
+    color: #fbd784;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 62px;
+}
+.more__on ul li{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 46px;
+}
+.more__on__mntn ul li{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 45px;
+}
